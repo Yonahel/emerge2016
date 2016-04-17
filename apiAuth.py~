@@ -3,7 +3,7 @@ import vdp_utils
 import json
 import serial
 
-ser = serial.Serial('/dev/ttyACM0' , 9600)
+ser = serial.Serial('/dev/tty.usbmodem1421' , 9600)
 
 info = '''{
     "acquirerCountryCode": "840",
