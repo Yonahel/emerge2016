@@ -3,7 +3,7 @@ import vdp_utils
 import json
 import serial
 
-ser = serial.Serial('/dev/ttyACM0' , 9600)
+ser = serial.Serial('/dev/ttyACM0' , 9600)   #Use tty.usbmodem1421 on mac, and the appropriate com port on windows
 
 info = '''{
     "acquirerCountryCode": "840",
